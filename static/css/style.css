@@ -1,0 +1,114 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* Adjust based on your navbar height */
+}
+
+body {
+  font-family: "Actor", sans-serif;
+  font-style: normal;
+  color: #161111;
+  font-style: normal;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+
+
+
+/* about */
+#about {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+/* hero */
+  #hero {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .profile-image-container img {
+    max-width: 400px;
+    border-radius: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .profile-image-container img {
+      max-width: 300px;
+    }
+  }
+
+  /* skill */
+.skill-badge {
+  background: black;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+  cursor: default;
+}
+/* project */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+/* section bg  */
+#experience{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+#skills{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+#projects{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+#contact{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+#header{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+#footer{
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+
+/* experience */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+/* contact */
+#contact .form-control {
+  border-radius: 0.75rem;
+  border: 1px solid #ced4da;
+}
+
+#contact .form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+#contact button:hover {
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+
